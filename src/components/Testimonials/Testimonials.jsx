@@ -33,7 +33,7 @@ const Testimonials = () => {
                         <div className='user-info'>
                             <img src={user_2} alt=''/>
                             <div>
-                                <h3>John Doe</h3>
+                                <h3>John Dode</h3>
                                 <span>Edusity, USA</span>
                             </div>
                         </div>
