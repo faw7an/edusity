@@ -20,3 +20,15 @@ position: relative;
     right: auto;
     left: 0;
 }
+
+.slider{
+    overflow :hidden;
+
+}
+.slider ul{
+    display: flex;
+    transition: 0.5s;
+    overflow-x: hidden;
+    width: 200%;
+    list-style: none;
+}
