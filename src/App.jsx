@@ -6,6 +6,7 @@ import Title from './components/Title/Title'
 import About from './components/About/About'
 import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/contact/Contact'
 export default function App() {
   return (
     <div>
@@ -19,7 +20,8 @@ export default function App() {
         <Campus />
         <Title subtitle='Testimonials' title='What our Students Says'/>
         <Testimonials />
-
+        <Title subtitle='Contact us' title='Get in Touch'/>
+        <Contact />
       </div>
     </div>
   )
