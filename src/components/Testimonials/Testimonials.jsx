@@ -10,12 +10,23 @@ import user_4 from '../../assets/user-4.png'
 
 const Testimonials = () => {
     const slideForwad = ()=>{
-
+      const ul =   document.querySelector(".slider ul");
+      let x = 0;
+      if(x > -50){
+        x-=25        
+      }
+        ul.style.transform = `translateX(${x}%)`
     }
     const slideBackward= ()=>{
-        
+        const ul =   document.querySelector(".slider ul");
+        let x = 0;
+        if(x<0){
+            x+=25
+        }
+        ul.style.transform = `translateX(${x}%)`
+
     }
-    
+
     return (
     <div className='testimonials'>
         <img src={next_icon} alt='' className='next-btn' onClick={slideForwad}/>
