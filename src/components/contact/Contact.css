@@ -17,6 +17,7 @@
     font-weight: 500;
     display:flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .contact-col h3 img{
@@ -35,3 +36,4 @@
     margin: 20px 0;
 
 }
+
