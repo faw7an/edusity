@@ -17,7 +17,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <div className='container'>
-        <Title subtitle = 'Our Programs' title = ' What We Offer'/>
+        <Title subtitle = 'Our Programs' title = 'What We Offer'/>
         <Programs />
         <About setIsPlaying={setIsPlaying}/>
         <Title subtitle='Gallery' title='Campus Photos'/>
